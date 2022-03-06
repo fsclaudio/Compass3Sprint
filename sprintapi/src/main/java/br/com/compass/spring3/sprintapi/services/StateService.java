@@ -41,13 +41,18 @@ public class StateService {
 	@Transactional(readOnly = true)
 	public StateDto findById(Long id) {
 		Optional<State> obj = repository.findById(id);
-		State entity = obj.orElseThrow(() -> new ResourceNotFoundException("Entity not found"));
+		State entity = obj.orElseThrow(() -> new ResourceNotFoundException("Id not found " + id));
 
 		return new StateDto(entity);
 	}
 
 	@Transactional(readOnly = true)
 	public List<StateDto> stateByregion(String region) {
+		if (coparation(region) == false) {
+			throw new ResourceNotFoundException(
+					"a região diferente do cadastro (Norte, Nordeste, Centro Oeste, Sudeste e Sul) Você passou: "
+							+ region);
+		}else
 
 		return repository.findByRegionEquals(region);
 	}
@@ -163,6 +168,16 @@ public class StateService {
 				|| dto.getRegion().compareToIgnoreCase("CENTRO OESTE") == 0
 				|| dto.getRegion().compareToIgnoreCase("SUDESTE") == 0
 				|| dto.getRegion().compareToIgnoreCase("SUL") == 0) {
+			return true;
+		} else
+			return false;
+	}
+	
+	private boolean coparation(String nome) {
+		if (nome.compareToIgnoreCase("NORTE") == 0 || nome.compareToIgnoreCase("NORDESTE") == 0
+				|| nome.compareToIgnoreCase("CENTRO OESTE") == 0
+				|| nome.compareToIgnoreCase("SUDESTE") == 0
+				|| nome.compareToIgnoreCase("SUL") == 0) {
 			return true;
 		} else
 			return false;
