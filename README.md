@@ -11,10 +11,10 @@ https://compass.gupy.io
 
 ## Descrição 
 
-- 1)CRUD 
-- 2)Filtros Região, População e Area
-- 3) Documentação usando Swagger
-- 4)Validação de data de fundação e idades
+- I)CRUD 
+- II)Filtros Região, População e Area
+- III) Documentação usando Swagger
+- IV)Validação de data de fundação e idades
 
 
 # Tecnologias utilizadas
