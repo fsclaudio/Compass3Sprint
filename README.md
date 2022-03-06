@@ -11,9 +11,9 @@ https://compass.gupy.io
 
 ## Descrição 
 
-1)CRUD 
-2)Filtros Região, População e Area
-3)Validação de data de fundação e idades
+- 1)CRUD 
+- 2)Filtros Região, População e Area
+- 3)Validação de data de fundação e idades
 
 Exercicio 8 validação de usuario e senha
 
