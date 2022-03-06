@@ -1,0 +1,5 @@
+INSERT INTO tb_state (name, region, population,capital,area,foundation_date, time_since_foundation) VALUES ('Acre','Norte',336038,'Rio Branco',8835.154,'1970-01-02',1);
+INSERT INTO tb_state (name, region, population,capital,area,foundation_date, time_since_foundation) VALUES ('Alagoas','Nordeste',1031597,'Maceio',509.320,'1810-01-02',1);
+INSERT INTO tb_state (name, region, population,capital,area,foundation_date, time_since_foundation) VALUES ('Pernambuco','Nordeste',1661017,'Recife',218.843,'1900-01-02',1);
+INSERT INTO tb_state (name, region, population,capital,area,foundation_date, time_since_foundation) VALUES ('São Paulo','Sudeste',12396372,'São Paulo',1005.4,'1912-01-02',1);
+INSERT INTO tb_state (name, region, population,capital,area,foundation_date, time_since_foundation) VALUES ('Santa Catarina','Sul',516524,'Florianopolis',674.844,'1960-01-02',1);
