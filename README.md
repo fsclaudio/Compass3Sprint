@@ -15,9 +15,6 @@ https://compass.gupy.io
 - 2)Filtros Região, População e Area
 - 3)Validação de data de fundação e idades
 
-Exercicio 8 validação de usuario e senha
-
-Exercicio 9 Bonificação de funcionarios
 
 # Tecnologias utilizadas
 ## Programa
