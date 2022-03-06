@@ -13,7 +13,8 @@ https://compass.gupy.io
 
 - 1)CRUD 
 - 2)Filtros Região, População e Area
-- 3)Validação de data de fundação e idades
+- 3) Documentação usando Swagger
+- 4)Validação de data de fundação e idades
 
 
 # Tecnologias utilizadas
